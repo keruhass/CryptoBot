@@ -1,0 +1,40 @@
+/* nulling styles */
+html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    cursor: url(../sources/images/cursor.svg), auto;
+}
+html::-webkit-scrollbar {
+    width: 15px;
+}
+html::-webkit-scrollbar-thumb {
+    background-color: #41A4DF;
+}
+html::-webkit-scrollbar-track {
+    -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+}
+body {
+    padding: 0px;
+    margin: 0;
+}
+main {
+    padding: 0px;
+    margin: 0; 
+}
+a {
+    text-decoration:none;
+}
+/* general styles */
+@font-face {
+    font-family: 'Inter';
+    src: local('Inter'),
+    url(../sources/fonts/Inter.ttf);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter';
+}
+button {
+    cursor: url(../sources/images/cursor.svg), auto;  
+}
